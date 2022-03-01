@@ -1,0 +1,16 @@
+.container{
+  width: calc(90% - 30px);
+  max-width: 500px;
+  margin: 0 auto 20px auto;
+  min-height: 350px;
+  background: var(--color-bg-secondary);
+  border-radius: 6px;
+  box-shadow: 0 5px 0 5px #f1f1f1;
+  padding: 15px;
+}
+.container p{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}

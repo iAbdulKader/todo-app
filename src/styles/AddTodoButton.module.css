@@ -1,0 +1,18 @@
+.container{
+  width: 90%;
+  max-width: 530px;
+  position: fixed;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+}
+.btnContainer{
+  float: right;
+  height: 50px;
+  width: 50px;
+  background: #FF312E;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 30px;
+}

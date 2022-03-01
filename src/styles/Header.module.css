@@ -1,0 +1,20 @@
+.header{
+  background: var(--color-bg-secondary);
+  height: 50px;
+  width: 100%;
+  margin: 0;
+  color: #232323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  margin-bottom: 15px;
+}
+.header p{
+  display: block;
+  margin: auto 0;
+  font-size: 26px;
+  font-family: Hubballi;
+  font-weight: 600;
+}

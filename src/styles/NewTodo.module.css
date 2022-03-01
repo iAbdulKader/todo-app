@@ -1,0 +1,42 @@
+.container{
+  background: #2D2E2E;
+  margin-bottom: 5px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+  box-shadow: 0px 20px 20px 0px #00000017;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 0;
+}
+.container input{
+  width: 100%;
+  background: transparent;
+  outline: none;
+  padding: 5px 10px;
+  border: 1px solid #ff5757;
+  height: 25px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-family: Fredoka;
+  color: #fff;
+}
+.container input::placeholder {
+  font-family: Fredoka;
+}
+.container button {
+  background: transparent;
+  border: 1px solid #ff5757;
+  outline: none;
+  transition: all 300ms ease-in-out;
+  height: 35px;
+  width: 90px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: Fredoka;
+}
+.container button:hover{
+  background: #ff5757;
+  outline: none;
+}
