@@ -35,6 +35,9 @@
 .container.done{
   opacity: 0.4;
 }
+.container.done textBox{
+  text-decoration: line-through;
+}
 .buttonBox button{
   margin-left: 2px;
   background: none;
